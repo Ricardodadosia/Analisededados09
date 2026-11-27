@@ -1,3 +1,6 @@
+import random
+import subprocess
+
 def dobro(x):
     res = x *2
     return res 
@@ -11,7 +14,9 @@ def quadrado(x):
     res = x **2
     return res 
 
-valor = float(input('informe o valor: '))
+#valor = float(input('informe o valor: '))
+subprocess.run('cls', shell=True)
+valor = random.randint(1, 10)
 print("""
 [2] dobro 
 [3] triplo
