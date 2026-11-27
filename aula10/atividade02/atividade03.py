@@ -17,7 +17,7 @@ def dividir(a, b):
 
 # Início
 
-subprocess.
+subprocess.run('cls', shell=True)
 num1 = random.randint(10, 100)
 num2 = random.randint(1, 10)
 print(f"Número 1: {num1} e Número 2: {num2}")
