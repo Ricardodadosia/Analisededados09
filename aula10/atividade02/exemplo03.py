@@ -1,23 +1,28 @@
 import subprocess
-import random  # números aleatórios
+import random
+
 
 def somar(a, b):
     return a + b
 
+
 def subtrair(a, b):
     return a - b
 
+
 def multiplicar(a, b):
     return a * b
+
 
 def dividir(a, b):
     if b == 0:
         return None
     return a / b
 
-# Início
 
-subprocess.run('cls', shell=True)
+# Início
+os.system("cls" if os.name == "nt" else "clear")
+
 num1 = random.randint(10, 100)
 num2 = random.randint(1, 10)
 print(f"Número 1: {num1} e Número 2: {num2}")
